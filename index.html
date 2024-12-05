@@ -22,13 +22,13 @@
     </section>
 
     <section class="imagem" id="img0">
-            <h2>Corrupção e Transformação em Darkin</h2>
+            <h2 class="imagem">Corrupção e Transformação em Darkin</h2>
 
             A ascensão de Aatrox coincidiu com a ameaça do Vazio, uma força destruidora que corrompia tudo em seu caminho. Aatrox e outros Ascendentes, como Nasus e Renekton, lideraram as forças de Shurima contra essa ameaça.
             Eles combateram o Vazio por séculos, com Aatrox se destacando como um herói incansável, defendendo o mundo contra essa corrupção alienígena. Ele acreditava firmemente no seu propósito e no ideal de proteger a criação.
 <br>
 <br>
-            <h2>O Fim da Guerra e a Queda dos Ascendentes</h2>
+            <h2 class="imagem">O Fim da Guerra e a Queda dos Ascendentes</h2>
 
             Com a vitória sobre o Vazio, os Ascendentes se viram sem propósito. O poder divino que outrora era usado para proteger começou a corrompê-los. Sem um inimigo comum, passaram a lutar entre si, tornando-se seres cada vez mais arrogantes, violentos e implacáveis.
 <br>
@@ -41,7 +41,7 @@
 
             <p>Aatrox tem um único objetivo: libertar-se completamente de sua prisão na espada. Ele acredita que a única maneira de alcançar essa liberdade é destruindo tudo e todos, incluindo ele próprio e o universo. Sua fúria é direcionada principalmente aos seres celestiais, responsáveis por sua prisão, mas ele não distingue amigos de inimigos, pois vê toda a criação como algo que precisa ser aniquilado.</p>
 
-            <h2>A Busca por Destruição e Liberdade</h2>
+            <h2 >A Busca por Destruição e Liberdade</h2>
 
             Agora, Aatrox vaga por Runeterra, manipulando corpos e buscando a destruição completa. Ele não luta apenas por vingança, mas como uma forma de protesto contra sua própria existência. A cada batalha, Aatrox busca desesperadamente se libertar, mesmo que isso signifique a morte de milhões.
 
@@ -51,25 +51,63 @@
     </section>
 
     <section class="imagem" id="img1">
-            <h2>A Prisão na Espada</h2>
+            <h2 class="imagem">A Prisão na Espada</h2>
 
             Temendo a destruição que os Darkin causavam, os magos de Shurima realizaram um poderoso ritual para aprisionar suas essências em armas. Aatrox foi selado dentro de sua espada, uma arma capaz de corromper e controlar aqueles que a empunhassem.
             Embora preso, Aatrox ainda mantinha parte de sua influência: ele podia manipular os corpos dos guerreiros que tocavam sua espada, lentamente moldando-os à sua imagem. No entanto, essa era uma existência miserável, pois cada corpo que ele possuía eventualmente se deteriorava, obrigando-o a repetir o ciclo.
             <br>
             <br>
 
-            <h2>O Ódio Pela Eternidade: O Declínio de Aatrox</h2>
+            <h2 class="imagem">O Ódio Pela Eternidade: O Declínio de Aatrox</h2>
 
             Séculos se passaram, e Aatrox se tornou uma entidade amarga e vingativa. Preso em sua própria arma, ele viu o mundo mudar enquanto continuava escravizado à sua forma atual.
             Seu ódio não era apenas dirigido aos mortais, mas também aos próprios deuses e ao conceito de vida. Aatrox passou a ver a existência como uma maldição e traçou um objetivo claro: destruir toda a criação. Ele acredita que somente aniquilando tudo – incluindo ele mesmo – poderá alcançar a liberdade definitiva.
     </section>
 
-    <section class="normal">
+    <section class="normal" id="norelleno">
             <h2>Personalidade e Filosofia</h2>
 
             Aatrox é amargurado, cínico e movido por um profundo sentimento de perda e desesperança. Ele acredita que sua existência é uma maldição e que a destruição é a única forma de redenção. Sua filosofia é marcada pelo desprezo à vida e pela convicção de que o universo está condenado. Ele se considera uma vítima e, ao mesmo tempo, um agente de sua própria vingança.
 
-            <p>Aatrox é um símbolo da luta contra o destino, um ser que, apesar de imortal, busca o fim de toda existência para escapar de sua eterna prisão.</p>
+            Aatrox é um símbolo da luta contra o destino, um ser que, apesar de imortal, busca o fim de toda existência para escapar de sua eterna prisão.
+    </section>
+
+    <section class="normal">
+        <h2 id="titulohabilidades">Habilidades</h2>
+
+        <p>Aatrox, o Darkin Blade, é um campeão de League of Legends que atua como um lutador (top laner) focado em dano sustentado e controle de grupo. Suas habilidades são baseadas no uso de sua espada para causar dano massivo em área e se curar durante o combate:</p>
+
+            <div class="habilidades">
+
+            <img id="img1" src="Imagens/q.webp" alt="Imagem 1" onclick="playVideo('video/aatroxq.mp4')">
+        
+            <img src="Imagens/w.webp" alt="Imagem 2" onclick="playVideo('video/aatroxw.mp4')">
+        
+            <img src="Imagens/e.webp" alt="Imagem 3" onclick="playVideo('video/aatroxe.mp4')">
+
+            <img src="Imagens/r.webp" alt="Imagem 4" onclick="playVideo('video/aatroxr.mp4')">
+            </div>
+
+
+      
+        <div id="videohabilidad">
+            <video id="videoPlayer" controls loop>
+                <source src="video/aatroxq.mp4" type="video/mp4">
+                <source src="video/aatroxw.mp4" type="video/mp4">
+                <source src="video/aatroxq.mp4" type="video/mp4">
+                <source src="video/aatroxq.mp4" type="video/mp4">
+                Seu navegador não suporta o elemento de vídeo.
+            </video>
+        </div>
+      
+        <script>
+          function playVideo(videoSrc) {
+            const videoPlayer = document.getElementById('videoPlayer');
+            videoPlayer.querySelector('source').src = videoSrc;
+            videoPlayer.load(); // Recarrega o vídeo para que o novo seja exibido.
+            videoPlayer.play(); // Opcional: inicia o vídeo automaticamente.
+          }
+        </script>
     </section>
     
     <footer>
