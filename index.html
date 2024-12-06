@@ -99,15 +99,7 @@
                 Seu navegador não suporta o elemento de vídeo.
             </video>
         </div>
-      
-        <script>
-          function playVideo(videoSrc) {
-            const videoPlayer = document.getElementById('videoPlayer');
-            videoPlayer.querySelector('source').src = videoSrc;
-            videoPlayer.load(); // Recarrega o vídeo para que o novo seja exibido.
-            videoPlayer.play(); // Opcional: inicia o vídeo automaticamente.
-          }
-        </script>
+
     </section>
     
     <footer>
@@ -118,3 +110,12 @@
     </footer>
 </body>
 </html>
+
+<script>
+    function playVideo(videoSrc) {
+      const videoPlayer = document.getElementById('videoPlayer');
+      videoPlayer.querySelector('source').src = videoSrc;
+      videoPlayer.load(); // Recarrega o vídeo para que o novo seja exibido.
+      videoPlayer.play(); // Opcional: inicia o vídeo automaticamente.
+    }
+  </script>
