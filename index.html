@@ -77,29 +77,35 @@
 
         <p>Aatrox, o Darkin Blade, é um campeão de League of Legends que atua como um lutador (top laner) focado em dano sustentado e controle de grupo. Suas habilidades são baseadas no uso de sua espada para causar dano massivo em área e se curar durante o combate:</p>
 
-            <div class="habilidades">
+        <div id="habilidades">
 
-            <img id="img1" src="Imagens/q.webp" alt="Imagem 1" onclick="playVideo('video/aatroxq.mp4')">
-        
-            <img src="Imagens/w.webp" alt="Imagem 2" onclick="playVideo('video/aatroxw.mp4')">
-        
-            <img src="Imagens/e.webp" alt="Imagem 3" onclick="playVideo('video/aatroxe.mp4')">
-
-            <img src="Imagens/r.webp" alt="Imagem 4" onclick="playVideo('video/aatroxr.mp4')">
+            <div class="habilidad">
+                <img src="Imagens/aatroxp.png" alt="imagem passiva aatrox">
+            </div>
+            
+            <div class="habilidad">
+                <img src="Imagens/q.webp" alt="imagem 1habilidade aatrox">
             </div>
 
+            <div class="habilidad">
+                <img src="Imagens/w.webp" alt="imagem 2habilidade aatrox">            
+            </div>
 
-      
-        <div id="videohabilidad">
-            <video id="videoPlayer" controls loop>
-                <source src="video/aatroxq.mp4" type="video/mp4">
-                <source src="video/aatroxw.mp4" type="video/mp4">
-                <source src="video/aatroxq.mp4" type="video/mp4">
-                <source src="video/aatroxq.mp4" type="video/mp4">
-                Seu navegador não suporta o elemento de vídeo.
-            </video>
+            <div class="habilidad">
+                <img src="Imagens/e.webp" alt="imagem 3habilidade aatrox">
+               
+            </div>
+
+            <div class="habilidad">
+                <img src="Imagens/r.webp" alt="imagem 4habilidade aatrox">
+            </div>
+
+        
+
+
+
         </div>
-
+        
     </section>
     
     <footer>
@@ -110,12 +116,3 @@
     </footer>
 </body>
 </html>
-
-<script>
-    function playVideo(videoSrc) {
-      const videoPlayer = document.getElementById('videoPlayer');
-      videoPlayer.querySelector('source').src = videoSrc;
-      videoPlayer.load(); // Recarrega o vídeo para que o novo seja exibido.
-      videoPlayer.play(); // Opcional: inicia o vídeo automaticamente.
-    }
-  </script>

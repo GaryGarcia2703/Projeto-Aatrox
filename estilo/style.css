@@ -113,32 +113,25 @@ section#norelleno {
     color: var(--cor5);
 }
 
-.habilidades {
-    margin-left: 440px;
-    margin-bottom: 20px;
+div#habilidades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+    margin-top: 50px;
 }
 
-.habilidades > img {
-    width: 84px;
-    border: 2px solid transparent;
-}
-
-.habilidades img:hover {
-    height: 89px;
-    width: 89px;
-}
-
-video {
-    padding: 25px;
-    border: 4px solid var(--cor5);
-    width: 80%;
-    max-width: 600px;
+div.habilidad{
+    line-height: 0em;
+    border: 2px solid #C8AA6E;
+    padding: 6px;
     display: inline-block;
-    text-align: center;
+    border-radius: 3px;
 }
 
-div#videohabilidad {
-    text-align: center;
+div.habilidad:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 footer {
