@@ -15,6 +15,11 @@
     src: url(../fonts/lol/BeaufortforLOL-Medium.ttf);
 }
 
+@font-face {
+    font-family:'lolitalic';
+    src: url(../fonts/lol/BeaufortforLOL-BoldItalic.ttf);
+}
+
 :root {
     --cor0:#121415;
     --cor1:#C8AA6E;
@@ -25,7 +30,7 @@
 }
 
 html,body {
-    min-height: 100vh;
+    height: 100vh;
     background-color: darkgray;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 } 
@@ -119,6 +124,7 @@ div#habilidades {
     align-items: center;
     gap: 10px; 
     margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 div.habilidad{
@@ -132,6 +138,23 @@ div.habilidad{
 div.habilidad:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.video-container {
+  margin-top: 0px;
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+video {
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+#videodescription {
+    text-align: center;
+    font-family: 'lolitalic';
 }
 
 footer {
